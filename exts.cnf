@@ -1,0 +1,4 @@
+[ v3_none ]
+# key identifiers need to be set to none, otherwise openssl will include them by default
+subjectKeyIdentifier = none
+authorityKeyIdentifier = none

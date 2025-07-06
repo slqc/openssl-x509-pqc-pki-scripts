@@ -1,0 +1,14 @@
+[ req ]
+#default_bits       = 256
+distinguished_name = req_distinguished_name
+prompt             = no
+x509_extensions    = v3_minimal
+subjectKeyIdentifier    = no
+
+[ req_distinguished_name ]
+
+CN = "      case3-subject1"
+
+[ v3_minimal ]
+# No SKI or AKI explicitly
+# (Empty section = no extensions)

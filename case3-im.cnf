@@ -1,0 +1,9 @@
+[ req ]
+#default_bits       = 256
+distinguished_name = req_distinguished_name
+prompt             = no
+subjectKeyIdentifier    = no
+
+[ req_distinguished_name ]
+
+CN = "            case3-im"
